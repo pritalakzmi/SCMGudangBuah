@@ -54,7 +54,7 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">Kategori Buah</th>
+                    <th scope="col">Nama Kategori</th>
                     <th scope="col">Nama Buah</th>
                     <th scope="col">Harga Per-Box Buah</th>
                     <th scope="col">Stok Awal</th>
@@ -67,7 +67,7 @@
                 @foreach ($buah as $b)
                     <tr>
                         <td>{{ $b->namakategori }}</td>
-                        <td>{{ $b->nama }}</td>
+                        <td>{{ $b->namabuah}}</td>
                         <td>{{ $b->harga }}</td>
                         <td>{{ $b->saw }}</td>
                         <td>{{ $b->sm }}</td>

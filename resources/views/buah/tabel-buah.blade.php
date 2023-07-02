@@ -2,7 +2,7 @@
     <table class="table table-hover">
         <thead>
             <tr>
-                <th>Kategori</th>
+                <th>Nama Kategori</th>
                 <th>Nama Buah</th>
                 <th>Harga per-Box</th>
                 <th>Stok Awal</th>
@@ -24,7 +24,7 @@
                 <td>{{$b->sak}}</td>
                 <td>
                     <form action="{{ route('buah.destroy',$b->id) }}" method="POST">
-                        @csrf
+                    @csrf
                         @method('DELETE')
                         <span data-toggle="tooltip" data-placement="bottom" title="Edit Data">
                             <a href="{{ route('buah.edit',$b->id) }}" class="btn btn-warning"><span

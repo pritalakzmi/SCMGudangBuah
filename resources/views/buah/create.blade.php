@@ -10,7 +10,7 @@
             <form action="{{route('buah.store')}}" method="POST" class="forms-sample">
                 @csrf
                 <div class="form-group">
-                    <label>Kategori Buah :</label>
+                    <label>Nama Kategori :</label>
                     <select class="form-control" id="kategori" name="kategori_id">
                         @foreach ($kategori as $k)
                         <option value="{{ $k->id }}">{{ $k->nama_kategori}}</option>

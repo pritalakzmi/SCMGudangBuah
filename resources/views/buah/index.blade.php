@@ -8,7 +8,7 @@
             Berikut adalah data buah yang terdaftar pada gudang
         </p>
         <div class="btn-wrapper">
-            <a href="{{route('buah.create')}}" class="btn btn-success btn-rounded btn-fw">Tambah Data Kategori</a>
+            <a href="{{route('buah.create')}}" class="btn btn-success btn-rounded btn-fw">Tambah Data Buah</a>
             <a href="{{route('buah.index',['download'=>'pdf'])}}" class="btn btn-primary btn-rounded btn-fw"><i class="icon-printer"></i> Print</a>
         </div>
     </div>

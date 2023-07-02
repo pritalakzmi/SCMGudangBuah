@@ -61,14 +61,13 @@
             <tbody>
                 @foreach ($truk as $t)
                     <tr>
-                        <td>{{ $s->nopol }}</td>
-                        <td>{{ $s->merk }}</td>
-                        <td>{{ $s->nama }}</td>
+                        <td>{{ $t->nopol }}</td>
+                        <td>{{ $t->merk }}</td>
+                        <td>{{ $t->nama }}</td>
                     </tr>
                 @endforeach
             </tbody>
         </table>
     </div>
 </body>
-
 </html>

@@ -3,7 +3,7 @@
 @section('content')
 <div class="card">
     <div class="card-body">
-        <h4 class="card-title">Data Buah</h4>
+        <h4 class="card-title">Data Jadwal Pengiriman</h4>
         <p class="card-description">
             Berikut adalah Jadwal yang terdaftar pada gudang
         </p>

@@ -70,4 +70,11 @@ class SupirController extends Controller
         $supir->delete();
         return redirect()->back();
     }
+    public function destroy($id)
+    {
+        $supir = Supir::find($id);
+        $supir->delete();
+
+        return redirect()->route('supir.index')->with('success', 'Supir successfully deleted.');
+    }
 }
